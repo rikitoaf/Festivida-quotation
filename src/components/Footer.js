@@ -88,7 +88,7 @@ function Footer({name,email,website,address, phone, bankname, bankaccountnumber,
                     {address}
                 </div>
                 <div>
-                MK Center, 6th Floor, 27, Road No-14, Block –G, Niketon, Gulshan 1, Dhaka 1212
+                Agriculture University 2nd Gate, Sher-E-Bangla Nagar, Dhaka-1216
                 </div>
                 <div>
                     {phone}
