@@ -4,16 +4,16 @@ import {useState, useRef} from "react";
 import logo from "./assets/festivida.png";
 
 import ClientDetails from './components/ClientDetails';
-import Dates from './components/Dates';
+// import Dates from './components/Dates';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import MainDetails from './components/MainDetails';
+// import MainDetails from './components/MainDetails';
 import Notes from './components/Notes';
 import Table from './components/Table';
 import TableForm from './components/TableForm';
 import ReactToPrint from 'react-to-print';
 import Bill from './components/Bill';
-import useMediaQuery from '@mui/material/useMediaQuery';
+
 
 
 function App() {
@@ -47,7 +47,7 @@ function App() {
   const [notes, setNotes] = useState("")
 
   // table content
-  const [title, setTitle] = useState("")
+  // const [title, setTitle] = useState("")
   const [description, setDescription] = useState("")
   const [file, setFile] = useState();
   const [rate, setRate] = useState("");
@@ -200,7 +200,7 @@ function App() {
         <div className="flex flex-col"> 
           <label htmlFor="BankRouteNumber ">  Bank Route Number</label>
           <input type="text" name = "text" id = "RouteNumber" placeholder=' Route Number' autoComplete='off'
-          value={bankroutenumber} onChange={(e) => bankroutenumber(e.target.value)}/>
+          value={bankroutenumber} onChange={(e) => setBankRouteNumber(e.target.value)}/>
         </div>
               </>
             )}
