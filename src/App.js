@@ -1,7 +1,7 @@
 
 import './App.css';
 import {useState, useRef} from "react";
-import logo from "./assets/festivida.png";
+import logo from "./assets/Brain Trust IT Limited.png";
 
 import ClientDetails from './components/ClientDetails';
 // import Dates from './components/Dates';
@@ -28,15 +28,15 @@ function App() {
   };
 
 
-  const [name, setName] = useState("Shila Rani Davi")
-  const [address, setAddress] = useState("Chief Executive Officer")
-  const [email, setEmail] = useState("festivida74@gmail.com")
-  const [phone, setPhone] = useState("8801304177789")
-  const [bankname, setBankName] = useState("Dhaka Bank PLC")
-  const [website, setWebsite] = useState("www.festivida.net ")
-  const [bankaccountnumber, setBankAccountNumber] = useState("1081090000707")
+  const [name, setName] = useState("Zahir Uddin Md Babor ")
+  const [address, setAddress] = useState("Managing Director ")
+  const [email, setEmail] = useState("zahir.razon@gmail.com")
+  const [phone, setPhone] = useState("8801784847377")
+  const [bankname, setBankName] = useState("Bank Asia PLC")
+  const [website, setWebsite] = useState("www.braintrustitltd.com")
+  const [bankaccountnumber, setBankAccountNumber] = useState("00433011791")
   const [bankroutenumber, setBankRouteNumber] = useState("")
-  const [branchname, setBranchName] = useState("Mirpur")
+  const [branchname, setBranchName] = useState("Gulshan")
   const [clientname, setClientName] = useState("")
   const [clientaddress, setClientAddress] = useState("")
   const [clientPhone, setClientPhone] = useState("")
