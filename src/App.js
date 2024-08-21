@@ -30,10 +30,10 @@ function App() {
 
   const [name, setName] = useState("Moynal Hossain Saeed")
   const [address, setAddress] = useState("Executive Director ")
-  const [email, setEmail] = useState("zahir.razon@gmail.com")
+  const [email, setEmail] = useState("lifestoriesevent21@gmail.com")
   const [phone, setPhone] = useState("8801974-547951")
   const [bankname, setBankName] = useState(" ")
-  const [website, setWebsite] = useState("")
+  const [website, setWebsite] = useState("www.lifestories.com")
   const [bankaccountnumber, setBankAccountNumber] = useState("")
   const [bankroutenumber, setBankRouteNumber] = useState("")
   const [branchname, setBranchName] = useState("")
