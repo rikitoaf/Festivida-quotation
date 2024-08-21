@@ -1,7 +1,7 @@
 
 import './App.css';
 import {useState, useRef} from "react";
-import logo from "./assets/Brain Trust IT Limited.png";
+import logo from "./assets/Wedding Stories.png";
 
 import ClientDetails from './components/ClientDetails';
 // import Dates from './components/Dates';
@@ -28,15 +28,15 @@ function App() {
   };
 
 
-  const [name, setName] = useState("Zahir Uddin Md Babor ")
-  const [address, setAddress] = useState("Managing Director ")
-  const [email, setEmail] = useState("zahir.razon@gmail.com")
-  const [phone, setPhone] = useState("8801784847377")
-  const [bankname, setBankName] = useState("Bank Asia PLC")
-  const [website, setWebsite] = useState("www.braintrustitltd.com")
-  const [bankaccountnumber, setBankAccountNumber] = useState("00433011791")
+  const [name, setName] = useState("Moynal Hossain Saeed")
+  const [address, setAddress] = useState("Executive Director ")
+  const [email, setEmail] = useState("weddingstoriesevent21@gmail.com")
+  const [phone, setPhone] = useState("8801974-547951")
+  const [bankname, setBankName] = useState("Janata Bank PLC")
+  const [website, setWebsite] = useState("")
+  const [bankaccountnumber, setBankAccountNumber] = useState("3081100007186")
   const [bankroutenumber, setBankRouteNumber] = useState("")
-  const [branchname, setBranchName] = useState("Gulshan")
+  const [branchname, setBranchName] = useState("Rajuk Bank Corporate ")
   const [clientname, setClientName] = useState("")
   const [clientaddress, setClientAddress] = useState("")
   const [clientPhone, setClientPhone] = useState("")
